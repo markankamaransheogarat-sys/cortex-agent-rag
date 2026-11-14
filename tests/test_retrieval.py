@@ -1,6 +1,6 @@
 import unittest
 from src.retrieval.bm25 import BM25Okapi
-from src.retrieval.dense import DenseVectorStore, cosine_similarity
+from src.retrieval.dense import cosine_similarity
 from src.retrieval.hybrid import HybridFusion
 from src.retrieval.reranker import CrossEncoderReranker
 

@@ -32,7 +32,6 @@ class SemanticCache:
 
     def get(self, query: str, query_embedding: List[float]) -> Optional[Dict[str, Any]]:
         """Lookup query in semantic cache."""
-        now = time.time()
         best_sim = -1.0
         best_entry = None
 
